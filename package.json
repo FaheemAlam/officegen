@@ -1,13 +1,13 @@
 {
 	"name": "officegen-complex-table",
 	"description": "Office Open XML Generator using Node.js streams. Supporting Microsoft Office 2007 and later Word (docx), PowerPoint (pptx,ppsx) and Excel (xlsx). This module is for all frameworks and environments. No need for any commandline tool - this module is doing everything inside it.",
-	"version": "0.2.9",
+	"version": "0.0.1",
 	"author": {
-		"name": "Ziv Barber",
-		"url": "https://github.com/Ziv-Barber"
+		"name": "Faheem Alam",
+		"url": "https://github.com/FaheemAlam"
 	},
 	"license": "MIT",
-	"url": "https://github.com/Ziv-Barber/officegen",
+	"url": "https://github.com/FaheemAlam/officegen",
 	"engines": {
 		"node": ">= 0.10.0"
 	},
@@ -33,7 +33,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Ziv-Barber/officegen.git"
+		"url": "git@github.com:FaheemAlam/officegen.git"
 	},
 	"bugs": {
 		"url": "https://github.com/Ziv-Barber/officegen/issues"
