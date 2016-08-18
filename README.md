@@ -59,7 +59,7 @@ $ git clone git://github.com/protobi/officegen.git
 via npm:
 
 ```bash
-$ npm install officegen
+$ npm install officegen-complex-table
 ```
 
 This module is depending on:
