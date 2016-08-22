@@ -687,7 +687,18 @@ var tableStyle = {
 
 docx.createTable (table, tableStyle);
 ```
-
+To add borders in Table:
+```
+var tableStyle = {
+    tableColWidth: 4261,
+    tableSize: 24,
+    tableColor: "444444",
+    tableAlign: "left",
+    borders: true, // enable borders in table
+    borderColor: "444444", // color for border
+    borderSize: "12", // size of border width
+}
+```
 To Create Word Document by json:
 
 ```js
