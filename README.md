@@ -701,110 +701,118 @@ var tableStyle = {
 ```
 To add a complex table with multi type date in table cell
 ```js
-var table = [
-  [{
-    val: "No.",
-    opts: {
-      cellColWidth: 4261,
-      b:true,
-      sz: '48',
-      shd: {
-        fill: "7F7F7F",
-        themeFill: "text1",
-        "themeFillTint": "80"
-      },
-      fontFamily: "Avenir Book"
-    }
-  },{
-    val: "Title1",
-    opts: {
-      b:true,
-      color: "A00000",
-      align: "right",
-      shd: {
-        fill: "92CDDC",
-        themeFill: "text1",
-        "themeFillTint": "80"
-      }
-    }
-  },{
-    val: "Title2",
-    opts: {
-      align: "center",
-      vAlign: "center",
-      cellColWidth: 42,
-      b:true,
-      sz: '48',
-      shd: {
-        fill: "92CDDC",
-        themeFill: "text1",
-        "themeFillTint": "80"
-      }
-    }
-  }],
-  [
-    [
-        {
-           "type": "image",
-           "path": path.resolve(__dirname, 'path/to/file.png'),
-           opts: {
-               cx:72, //in px
-               cy: 72 //in px
-           }
-        }
-    ],
-  [
-    {
-       "type": "text",
-       "inline": true,
-       "values": [
-           {
-               "opts": {
-                   "b": true,
-                   "sz": 20
-               }
+var table =[
+     [
+       {
+         "val": "No.",
+         "opts": {
+           "cellColWidth": 4261,
+           "b": true,
+           "sz": "48",
+           "shd": {
+             "fill": "7F7F7F",
+             "themeFill": "text1",
+             "themeFillTint": "80"
            },
-           {
+           "fontFamily": "Avenir Book"
+         }
+       },
+       {
+         "val": "Title1",
+         "opts": {
+           "b": true,
+           "color": "A00000",
+           "align": "right",
+           "shd": {
+             "fill": "92CDDC",
+             "themeFill": "text1",
+             "themeFillTint": "80"
+           }
+         }
+       },
+       {
+         "val": "Title2",
+         "opts": {
+           "align": "center",
+           "vAlign": "center",
+           "cellColWidth": 42,
+           "b": true,
+           "sz": "48",
+           "shd": {
+             "fill": "92CDDC",
+             "themeFill": "text1",
+             "themeFillTint": "80"
+           }
+         }
+       }
+     ],
+     [
+       [
+         {
+           "type": "image",
+           "path": "",
+           "opts": {
+             "cx": 72,
+             "cy": 72
+           }
+         }
+       ],
+       [
+         {
+           "type": "text",
+           "inline": true,
+           "values": [
+             {
+               "opts": {
+                 "b": true,
+                 "sz": 20
+               }
+             },
+             {
                "val": " Balance Training",
                "opts": {
-                   "sz": 20
+                 "sz": 20
                }
-           },
-           {
+             },
+             {
                "val": "",
                "opts": {
-                   "sz": 20
+                 "sz": 20
                }
-           }
-       ]
-    },
-    {
-       "type": "text",
-       "inline": true,
-       "values": [
-           {
+             }
+           ]
+         },
+         {
+           "type": "text",
+           "inline": true,
+           "values": [
+             {
                "opts": {
-                   "b": true,
-                   "sz": 20
+                 "b": true,
+                 "sz": 20
                }
-           },
-           {
+             },
+             {
                "val": " Beginning Knitting",
                "opts": {
-                   "sz": 20
+                 "sz": 20
                }
-           },
-           {
+             },
+             {
                "val": ", Salon",
                "opts": {
-                   "sz": 20
+                 "sz": 20
                }
-           }
-       ]
-    }],'All grown-ups were once children',''],
-  [2,'there is no harm in putting off a piece of work until another day.',''],
-  [3,'But when it is a matter of baobabs, that always means a catastrophe.',''],
-  [4,'watch out for the baobabs!','END'],
+             }
+           ]
+         }
+       ],
+       "All grown-ups were once children",
+       ""
+     ],
+    [2,"there is no harm in putting off a piece of work until another day.",""],
+    [3,"But when it is a matter of baobabs, that always means a catastrophe.",""],
+    [4,"watch out for the baobabs!","END"]
 ]
 
 var tableStyle = {
