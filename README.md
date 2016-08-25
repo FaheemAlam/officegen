@@ -697,6 +697,8 @@ var tableStyle = {
     borders: true, // enable borders in table
     borderColor: "444444", // color for border
     borderSize: "12", // size of border width
+    bordersInsideH:false, //do not remove horizontal borders from inside table
+    bordersInsideV:true, //remove vertically borders from inside table
 }
 ```
 To add a complex table with multi type date in table cell
